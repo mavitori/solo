@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'RiotSquad';
+    src: url('RIOTSQUA.TTF') format('truetype');
+    font-weight: normal;
+}
+
+body{
+    background-image:url('fundo.png');
+    background-repeat: repeat;
+    background-size: auto;
+    margin: auto;
+}
+
+header {
+    background-image: url('h.png');
+    width: 1300px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+nav {
+    padding: 10px;
+    margin: auto;
+    margin-left: 300px;
+
+}
+
+nav a{
+    color: #c10a02;
+    font-family: 'RiotSquad';
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+    -webkit-animation: backwards;
+}
+
+nav a:hover {
+    color: #e05004;
+    transition-duration: 0.5s;
+    letter-spacing: 2px;
+    -webkit-animation: backwards;
+}
+
+main {
+    background-color:white;
+    width: 700px;
+    margin: 20px 50px 5px 50px;
+    padding: 10px;
+    border: solid 1px #e05004;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'RiotSquad';
+    font-size: 50px;
+    text-align: center;
+    color: #c10a02;
+    transition-duration: 1.0s;
+}
+
+h1:hover {
+    letter-spacing: 3px;
+    color: #f48407;
+    transition-duration: 1.0s;
+}
+
+h2 {
+    font-family: 'RiotSquad';
+    text-align: right;
+    font-size: 30px;
+    color:#e05004;
+    background-color: #e6e6e66e;
+    box-shadow: 4px 4px 2px #e05004bd;   
+    border:#c10a02 solid 1px;
+}
+
+h3 {
+    font-family: 'RiotSquad';
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #e05004;
+    margin: -10px -10px 10px -10px;
+    padding: 10px;
+}
+
+aside {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #e05004bd;
+}
+
+ul {
+    color: #e05004;
+}
+
+footer {
+    background-image: url('fotter.png');
+    width: 1300px;
+    height: 500px;
+}
